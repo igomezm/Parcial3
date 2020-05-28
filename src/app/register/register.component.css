@@ -1,0 +1,20 @@
+CSS
+.example-form {
+  min-width: 110px;
+  max-width: 100px;
+  width: 100%;
+  background-color: rgb(220, 189, 235);
+}
+
+.example-full-width {
+  width: 70%;
+}
+.registrar-card {
+  max-width: 100px;
+  height: 300px;
+  background-color: rgb(220, 189, 235);
+}
+
+td {
+  padding-right: 100px;
+}
