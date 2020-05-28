@@ -2,12 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {Component} from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { EditComponent } from './edit/edit.component';
-import {AlleventsModule} from './allevents/allevents.model';
+//import {AlleventsModule} from './allevents/allevents.model';
 
 import { RegisterComponent } from './register/register.component';
 import { AlleventsComponent } from './allevents/allevents.component';
@@ -49,12 +48,10 @@ export const routes: Routes = [
     MatSnackBarModule,
     MatNativeDateModule,
     FormsModule,
-    AlleventsModule,
     ReactiveFormsModule,
     MatCardModule,
     MatDatepickerModule,
     MatFormFieldModule,
-    AppRoutingModule,
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     StoreModule.forRoot({}, {}),
     BrowserAnimationsModule
